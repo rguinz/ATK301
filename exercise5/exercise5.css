@@ -1,0 +1,46 @@
+header {
+  background-color: #9fa1e5;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #0000ff;
+}
+
+h3 {
+  background-color:  #ffff00;
+}
+
+h4 {
+  color: #ffff00;
+  background-color: forestgreen;
+}
+
+h5 {
+  color: purple;
+}
+
+a:link {
+ color: #00ff00;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #ff0000;
+ text-decoration: underline;
+}
+
+.orangespan {
+  color: orange;
+}
+
+.redtext {
+  color: red;
+}
+
+.seafoamtext {
+  background-color: #71eeb8
+}
