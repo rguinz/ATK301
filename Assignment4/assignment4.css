@@ -1,0 +1,79 @@
+
+h1 {
+  color: orange;
+  background-color: #000000;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: none;
+}
+
+#baseinfo {
+    color: #0000ff;
+    background-color: #ffffff;
+  }
+
+h2 {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: sans-serif;
+}
+h3 {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: sans-serif;
+}
+h4 {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: sans-serif;
+}
+p {
+  color:  #f7ffe6;
+  background-color: #717171;
+  font-family: sans-serif;
+}
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+  color: #ffff00
+}
+
+.spanstyle {
+  color: #f54e32;
+}
+
+#head {
+  color: #ff0000;
+}
+
+#yes {
+  color: #5f0000;
+}
+
+ul {
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.img {
+  border: 20px solid #000000;
+  padding: 10px solid #ffffff
+}
+
+body {
+  background-color: #b88d8d;
+  background-image: url(images/kitkat.jpg)
+}
