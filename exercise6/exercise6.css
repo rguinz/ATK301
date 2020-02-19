@@ -1,0 +1,23 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border: 0px solid red;
+  width: 150px;
+  margin: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid blue;
+  display: block;
+}
+
+nav li a:hover {
+  background-color: forestgreen;
+}
