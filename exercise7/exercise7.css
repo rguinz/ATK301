@@ -1,0 +1,61 @@
+header {
+  grid-column: span 1;
+  background-color: #0000ff
+}
+
+nav {
+  grid-column: span 2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  text-align: justify;
+  grid-column: span 2;
+}
+
+.imagefloat {
+  float: left;
+  padding-right: 5px;
+}
+
+aside {
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+  clear: both;
+  grid-column: span 3;
+  color: blue;
+}
+
+body { background-color: #999999;
+padding-left: 0px;
+}
