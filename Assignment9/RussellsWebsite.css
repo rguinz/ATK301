@@ -1,0 +1,182 @@
+body {
+  background-color: #ffffff;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #E6E5E9;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+nav {
+  grid-column: span 12;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+#Home {
+  grid-column: span 2;
+  color: #8A8888;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#Projects {
+  grid-column: span 2;
+  color: #8A8888;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#RZ {
+  grid-column: span 4;
+text-align: center;
+font-size: 150px;
+border: 1px solid #3F8DE7;
+padding: 15px;
+background-color: #3F8DE7;
+color: white;
+}
+
+#About {
+  grid-column: span 2;
+  color: #8A8888;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#Contact {
+  grid-column: span 2;
+  color: #8A8888;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+a:visted {
+  color:white;
+}
+
+header {
+  grid-column: span 12;
+  color: #8A8888;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 3px solid #8A8888;
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+}
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+#VCV {
+  grid-column: span 12;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+}
+
+#VCVText {
+  grid-column: span 12;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+}
+
+#BestFriend {
+  grid-column: span 6;
+  margin-left: auto;
+  margin-right: auto;
+}
+#BestFriendText {
+  grid-column: span 6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+  }
+#Clefs {
+  grid-column: span 6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ClefsText {
+  grid-column: span 6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+}
+footer {
+  grid-column: span 12;
+  border-top: 3px solid #8A8888;
+  margin-top: 75px;
+  vertical-align: middle;
+}
+
+#footertext {
+  display: inline;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+footer li {
+  display: inline;
+  vertical-align: middle;
+}
