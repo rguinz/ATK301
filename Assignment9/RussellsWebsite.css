@@ -32,12 +32,16 @@ nav li {
 
 nav li a {
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
+  transition: color .5s;
 }
 
+nav li a:hover {
+  color: #8A8888;
+}
 
 #Home {
   grid-column: span 2;
@@ -48,6 +52,7 @@ nav li a {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+  text-shadow: 2px 2px 2px #8A8888;
 }
 
 #Projects {
@@ -59,6 +64,7 @@ nav li a {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+  text-shadow: 2px 2px 2px #8A8888;
 }
 
 #RZ {
@@ -69,6 +75,8 @@ border: 1px solid #3F8DE7;
 padding: 15px;
 background-color: #3F8DE7;
 color: white;
+border-radius: 90px;
+text-shadow: 4px 4px 4px #8A8888;
 }
 
 #About {
@@ -80,6 +88,7 @@ color: white;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+  text-shadow: 2px 2px 2px #8A8888;
 }
 
 #Contact {
@@ -91,6 +100,7 @@ color: white;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+  text-shadow: 2px 2px 2px #8A8888;
 }
 
 a:visted {
@@ -100,13 +110,14 @@ a:visted {
 header {
   grid-column: span 12;
   color: #8A8888;
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: bold;
   border-bottom: 3px solid #8A8888;
   margin: 10px;
   padding: 0px;
   text-align: center;
+  text-shadow: 2px 2px 2px white;
 }
 
 main {
@@ -120,6 +131,8 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 17px;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #666;
 }
 
 #VCVText {
@@ -128,13 +141,15 @@ main {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #BestFriend {
   grid-column: span 6;
   margin-left: auto;
   margin-right: auto;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #666;
 }
 #BestFriendText {
   grid-column: span 6;
@@ -142,12 +157,14 @@ main {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: Arial, sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
   }
 #Clefs {
   grid-column: span 6;
   margin-left: auto;
   margin-right: auto;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #666;
 }
 
 #ClefsText {
@@ -156,27 +173,21 @@ main {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 footer {
   grid-column: span 12;
   border-top: 3px solid #8A8888;
-  margin-top: 75px;
+  margin-top: 45px;
+  padding-top: 30px;
   vertical-align: middle;
-}
-
-#footertext {
+  font-family: 'Source Sans Pro', sans-serif;
   display: inline;
 }
 
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-}
-
-footer li {
-  display: inline;
-  vertical-align: middle;
+footer a {
+  color: #8A8888;
+  text-decoration: none;
+  font-size: 38px;
+  margin: 8px;
 }
