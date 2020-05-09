@@ -227,6 +227,8 @@ footer {
 footer p {
   display: inline;
 margin-left: 860px;
+font-size: 17px;
+color: black;
 }
 
 footer a {
